@@ -1,5 +1,7 @@
 # Street blocks features computation
 
+Please cite this code using the following DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1290642.svg)](https://doi.org/10.5281/zenodo.1290642)
+ 
 This repository contain the python script (in a jupyter notebook) used for computing landscapes metrics in street blocks or any other landscape unit defined as a shapefile to be provided by the user.
 
 It rely on GRASS GIS and mainly on the [r.li suite](https://grass.osgeo.org/grass74/manuals/r.li.html). 
