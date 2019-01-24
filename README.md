@@ -1,5 +1,11 @@
 # Street blocks features computation
 
+This code was published belong to the following paper:
+
+Grippa & al. 	Mapping Urban Land Use at Street Block Level Using OpenStreetMap, Remote Sensing Data, and Spatial Metrics. ISPRS Int. J. Geo-Inf. 2018, 7, 246. [doi:10.3390/ijgi7070246](https://doi.org/10.3390/ijgi7070246)
+
+Please cite this code using the following DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1290642.svg)](https://doi.org/10.5281/zenodo.1290642)
+ 
 This repository contain the python script (in a jupyter notebook) used for computing landscapes metrics in street blocks or any other landscape unit defined as a shapefile to be provided by the user.
 
 This code was published belong to the following paper:
@@ -53,6 +59,7 @@ Spectral metrics:
 Other metrics:
 - *"mean_build_height"* : Mean nDSM value of built pixels 
 - *"count_buildpixels"* : Number of built pixels in the block
+<<<<<<< HEAD
 
 ## Example 
 Here after are presented few spatial metrics computed on a land cover map and used as main features for land use classification at the streetblock level. 
@@ -65,3 +72,5 @@ Here after are presented few spatial metrics computed on a land cover map and us
 ![](illustration/Ouaga_Low_elevated_building_Patch_density.jpg) 
 **Landuse classification**
 ![](illustration/Ouaga_landuse_classif.jpg) 
+=======
+>>>>>>> d8de45213c030a0f7a83bd6ae081db9f9616ffaa
